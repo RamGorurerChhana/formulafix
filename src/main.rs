@@ -19,4 +19,5 @@ async fn main() {
         println!("─➤ Discard workflow {}", args.work_flow_id());
         let _ = discard_workflow(&args, &db).await;
     }
+    println!("─➤ Completed Successfully!!!");
 }
